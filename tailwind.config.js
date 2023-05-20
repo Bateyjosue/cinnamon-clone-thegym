@@ -8,7 +8,8 @@ export default {
       },
       fontFamily: {
         primary: "Mont",
-        secondary: "MontSec"
+        secondary: "MontSec",
+        bolds: "MontBold",
       },
       rotate: {
         '17': '-90deg',
