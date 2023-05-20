@@ -5,12 +5,13 @@
     <link rel="icon" type="image/png" href="./media/logo.png"  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cinnamon | Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body class="bg-gray-600">
+  <body class=" relative scroll-smooth">
     <header class="header__container flex items-center justify-between h-16 bg-white px-6 sticky top-0">
-      <div class="log">
-        <!-- <img src="./media/logo-white.svg" alt=""> -->
+      <div class="logo">
+        <!-- <img src="./media/logo-white.svg" alt="" class="w-32"> -->
         <img src="./media/logo-dark.svg" alt="" class="w-32">
       </div>
       <nav class="nav__links hidden lg:flex">
@@ -26,9 +27,28 @@
       </nav>
       <div class="mobile__menu lg:hidden">
         <img src="./media/dark-menu.svg" alt="">
+        <!-- <img src="./media/light-menu.svg" alt=""> -->
       </div>
     </header>
-    <main class="main__container"></main>
+    <main class="main__container bg-[url('/media/noise.png')] bg-[#1C1C1C] px-6 py-4">
+      <section class="headline relative">
+        <h2 class="w-90 text-white font-bold text-4xl leading-normal font-primary">Results focused design & development agency.</h2>
+        <p class="text-white py-6 font-secondary leading-relaxed text-lg opacity-70">
+          Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.
+        </p>
+        <div class="annance rounded-full flex justify-center items-center w-32 h-32 bg-black shadow-xl shadow-slate-950 mx-auto mt-6">
+          <img src="./media/annonce.png" alt=""  class="object-fill">
+        </div>
+        <p class=" w-fit text-white gap-2 relative rotate-17 mb-10 ml-[-60px] py-4 flex justify-center">
+          <span class="material-symbols-outlined rotate-17 ">arrow_upward</span> 
+          <span >
+            SEE OUR WORK
+          </span>
+        </p>
+      </section>
+      <div>
+      </div>
+    </main>
     <footer class="footer__container"></footer>
     <script type="module" src="/main.js"></script>
   </body>
