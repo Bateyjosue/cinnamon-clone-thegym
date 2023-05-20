@@ -2,7 +2,18 @@
 export default {
   content: ["./index.html", "./main.js"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'headline': "url('/media/noise.png')",
+      },
+      fontFamily: {
+        primary: "Mont",
+        secondary: "MontSec"
+      },
+      rotate: {
+        '17': '-90deg',
+      }
+    },
   },
   plugins: [],
 }
