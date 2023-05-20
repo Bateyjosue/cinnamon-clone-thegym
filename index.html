@@ -2,14 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./media/logo.png" />
+    <link rel="icon" type="image/png" href="./media/logo.png"  />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cinnamon | Home</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <div id="app">
-      
-    </div>
+  <body class="bg-gray-600">
+    <header class="header__container flex items-center justify-between h-16 bg-white px-6 sticky top-0">
+      <div class="log">
+        <!-- <img src="./media/logo-white.svg" alt=""> -->
+        <img src="./media/logo-dark.svg" alt="" class="w-32">
+      </div>
+      <nav class="nav__links hidden lg:flex">
+        <ul class="flex justify-between">
+          <li><a href="">Projects</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Play</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="mobile__menu lg:hidden">
+        <img src="./media/dark-menu.svg" alt="">
+      </div>
+    </header>
+    <main class="main__container"></main>
+    <footer class="footer__container"></footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
