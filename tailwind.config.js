@@ -10,6 +10,7 @@ export default {
         primary: "Mont",
         secondary: "MontSec",
         bolds: "MontBold",
+        semis: "SemiBold",
       },
       rotate: {
         '17': '-90deg',
