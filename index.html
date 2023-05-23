@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body class="">
-    <header class="header__container flex items-center justify-between h-16 bg-white px-6 lg:px-20 sticky top-0 mx-auto">
+    <header class="header__container flex items-center justify-between h-16 lg:h-24 lg:z-0 bg-white px-6 lg:px-20 lg:sticky top-0">
       <div class="logo">
         <!-- <img src="./media/logo-white.svg" alt="" class="w-32"> -->
         <img src="./media/logo-dark.svg" alt="" class="w-32">
@@ -34,52 +34,52 @@
         <!-- <img src="./media/light-menu.svg" alt=""> -->
       </div>
     </header>
-    <main class="main__container scroll-none">
-      <section class="headline bg-[url('/media/noise.png')] bg-[#1C1C1C]  px-6 py-4 relative lg:px-20 lg:py-20">
-        <h2 class="w-90 text-white font-bold text-4xl leading-normal font-primary lg:text-[80px] lg:leading-relaxed">Results focused design & development agency.</h2>
+    <main class="main__container scroll-none lg:overflow-x-hidden">
+      <section class="headline bg-[url('/media/noise.png')] bg-[#1C1C1C] lg:h-[110vh]  px-6 py-4 relative lg:px-20 lg:py-20 lg:z-10">
+        <h2 class="w-90 text-white font-bold text-4xl leading-normal font-primary lg:text-[80px] lg:leading-[6rem]">Results focused design & development agency.</h2>
         <p class="text-white py-6 font-secondary leading-relaxed text-lg opacity-80 lg:w-[50%] lg:text-base">
           Extend your team with our high performing specialists or hire us to shape your product from scratch. Either way, we’ll get your product off the ground and build a momentum for your success.
         </p>
-        <div class="annonce rounded-full flex justify-center items-center w-32 h-32 bg-black shadow-xl shadow-slate-950 mx-auto mt-6 lg:absolute lg:right-24 lg:bottom-28">
+        <div class="annonce rounded-full flex justify-center items-center w-32 h-32 lg:w-40 lg:h-40 bg-black shadow-xl shadow-slate-950 mx-auto mt-6 lg:absolute lg:right-24 lg:bottom-32">
           <img src="./media/annonce.png" alt=""  class="object-fill">
         </div>
-        <p class=" w-fit text-white gap-2 relative rotate-17 mb-10 ml-[-60px] py-4 flex justify-center lg:top-[3.5rem]">
+        <p class=" w-fit text-white gap-2 relative lg:absolute rotate-17 mb-10 ml-[-60px] py-4 flex justify-center lg:bottom-[1rem]">
           <span class="material-symbols-outlined rotate-17 ">arrow_upward</span> 
           <span >
             SEE OUR WORK
           </span>
         </p>
       </section>
-      <section class="work px-6 pt-24 pb-16 flex flex-col gap-12">
+      <section class="work px-6 pt-24 pb-16 flex flex-col gap-12 lg:z-40 lg:px-20">
         <div class="work__card">
-          <div class="work__card__image border bg-amber-300">
-            <img src="./media/1.png" alt="" class="hover:scale-110">
+          <div class="work__card__image border bg-amber-300 lg:overflow-x-hidden">
+            <img src="./media/1.png" alt="" class="hover:scale-2 lg:z-10">
           </div>
           <h6 class="text-gray-500 font-bold text-xs py-4">IOS DEVELOPEMENT</h6>
-          <h3 class="text-3xl font-bold font-primary leading-relaxed hover:text-[#5135ff]">Smart Build: <br />Maximize <br /> your field survey</h3>
-          <p class="py-2 text-gray-500  font-secondary">An application for construction management. Make manipulation over construction map and export report as a PDF document.</p>
+          <h3 class="text-3xl font-bold font-primary leading-relaxed hover:text-[#5135ff] lg:w-[30%]">Smart Build: Maximize  your field survey</h3>
+          <p class="py-2 text-gray-500  font-secondary lg:w-[64%]">An application for construction management. Make manipulation over construction map and export report as a PDF document.</p>
         </div>
         <div class="work__card">
           <div class="work__card__image border bg-green-200">
-            <img src="./media/2.png" alt="" class="hover:scale-110">
+            <img src="./media/2.png" alt="" class="hover:scale-x-110">
           </div>
           <h6 class="text-gray-500 font-bold text-xs py-4 flex gap-6">
             <span>PRODUCT DESIGN</span>
             <span>QUALITY ASSURANCE</span>
           </h6>
-          <h3 class="text-3xl font-bold font-primary leading-relaxed hover:text-[#5135ff]">Corrily: Optimize <br />prices <br /> to mazimize revenue</h3>
-          <p class="py-2 text-gray-500  font-secondary">Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.</p>
+          <h3 class="text-3xl font-bold font-primary leading-relaxed hover:text-[#5135ff] lg:w-[33%]">Corrily: Optimize prices to mazimize revenue</h3>
+          <p class="py-2 text-gray-500  font-secondary lg:w-[64%]">Corrily tailors your prices and discounts to the needs of different user segments in order to increase your revenue. Cinnamon was tasked with creating a new visual identity for Corrily and incorporating a fresh, and stunning website redesign.</p>
         </div>
         <div class="work__card">
           <div class="work__card__image border bg-amber-300">
-            <img src="./media/1.png" alt="" class="hover:scale-110">
+            <img src="./media/1.png" alt="" class="hover:scale-x-110">
           </div>
           <h6 class="text-gray-500 font-bold text-xs py-4 flex gap-6">
             <span>PRODUCT DESIGN</span>
             <span>WEB DEVELOPMENT</span>
           </h6>
           <h3 class="text-3xl font-bold font-primary leading-relaxed hover:text-[#5135ff]">Fiona: Engage & <br />Decide</h3>
-          <p class="py-2 text-gray-500  font-secondary">Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
+          <p class="py-2 text-gray-500  font-secondary lg:w-[64%]">Fiona is a fintech consumer-facing website that enables users to search for financial products, discover them, and receive personalized recommendations.</p>
         </div>
       </section>
       <section class="servives px-6 pt-24 pb-20  bg-[url('/media/noise.png')] bg-[#1C1C1C]">
