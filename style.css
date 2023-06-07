@@ -54,5 +54,16 @@ body {
   
 }
 
-.wrapper {
+
+@media (min-width: 640px) {
+  .wrapper__left {
+    margin-left: 6rem;
+    padding: 0;
+  }
+  
+  .wrapper {
+    margin: 0rem 6rem;
+    padding: 0;
+  
+  }
 }
